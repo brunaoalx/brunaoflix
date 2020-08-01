@@ -11,11 +11,12 @@ function Carousel({
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const videos = category.videos;
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title categoryColor={categoryColor}>
+          <Title style={{ background: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
           {categoryExtraLink && 
