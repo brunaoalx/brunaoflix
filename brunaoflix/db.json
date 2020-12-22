@@ -194,7 +194,7 @@
         "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
       }
     ],
-    "getNegotiationLimits":[
+    "getNegotiationLimits":
       {
         "OutpuGetNegotiationLimits": {
             "openItems": {
@@ -360,5 +360,4 @@
             }
         }
     }
-    ]
   }
