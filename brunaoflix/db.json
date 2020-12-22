@@ -359,5 +359,33 @@
                 }
             }
         }
-    }
+    },
+    "simulateAgreement":{
+      "OutputSimulateAgreement": {
+          "InstalmentInfo": {
+              "1": {
+                  "InstTotalAmount": 1941.77,
+                  "InstIndexationAmount": 210.65,
+                  "InstFineAmount": 29.65,
+                  "InstDiscAmount": 518.84,
+                  "InstMainAmount": 1482.4,
+                  "InstDueDate": "20201219",
+                  "InstAmountTax": 0,
+                  "InstDelayPaymentAmount": 737.91,
+                  "InstNumber": 1
+              }
+          },
+          "agreementId": 522600,
+          "TotalInstalments": {
+              "InstMainAmount": 1482.4,
+              "InstTotalAmount": 1941.77,
+              "InstIndexationAmount": 210.65,
+              "InstAmountTax": 0,
+              "InstDelayPaymentAmount": 737.91,
+              "InstNegotiationAmount": 0,
+              "InstFineAmount": 29.65,
+              "InstDiscAmount": 518.84
+          }
+      }
+  }
   }
