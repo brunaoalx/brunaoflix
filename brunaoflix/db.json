@@ -387,5 +387,51 @@
               "InstDiscAmount": 518.84
           }
       }
-  }
+  },
+  "saveAgreement":{
+    "OutputSaveAgreement": {
+    "AgreementStatus": "Approved"
+    }
+    },
+    "cancelAgreement":{
+      "OutputCancelAgreement": {
+      "CancelStatus": "OK"
+    }
+    },
+    "registerBill":{
+      "OutputRegisterBill": {
+      "RegisterStatus": "OK",
+      "idBoleto": 17569,
+      "InstallmentNumber": 2,
+      "BillDueDate": "20200815",
+      "pdfBillBase64": "JVBERi0xLjcNJeLjz9MNCjEgMCBvYmoNPDwvQW5ub3RzIDIwIDAgUi9Db250ZW50cyA3IDAgUi9Hcm91cDw8L0NTL0RldmljZVJHQi9TL1RyYW5zcGFyZW5jeS9UeXBlL+Z2kZjHh6PRy8C5v5Xxlpr6x/zH4leDczQ5xffo3+0g+uhov/+L/wil+RSqxHZUXmxZlfRNbdARzWjqSSC+ctpzJrZ7vIOdnCoVUZJ0r758KXJsfv3Eb9ef25fMOhX/+AcS52dQKZW5kc3RyZWFtDWVuZG9iag1zdGFydHhyZWYNOTU3NjQNJSVFT0YK",
+      "LinhaDigitavel": "03399054739990000000300000901017284960000018473"
+    }
+    },
+    "getBill":{
+      "OutputGetBill": {
+      "idBoleto": 345111,
+       "BillDueDate": "20200815",
+       "pdfBillBase64": "JVBERi0xLjcNJeLjz9MNCjEgMCBvYmoNPDwvQW5ub3RzIDIwIDAgUi9Db250ZW50cyA3IDAgUi9Hcm91cDw8L0NTL0RldmljZVJHQi9TL1RyYW5zcGFyZW5jeS9UeXBlL+Z2kZjHh6PRy8C5v5Xxlpr6x/zH4leDczQ5xffo3+0g+uhov/+L/wil+RSqxHZUXmxZlfRNbdARzWjqSSC+ctpzJrZ7vIOdnCoVUZJ0r758KXJsfv3Eb9ef25fMOhX/+AcS52dQKZW5kc3RyZWFtDWVuZG9iag1zdGFydHhyZWYNOTU3NjQNJSVFT0YK",
+       "LinhaDigitavel": "03399054739990000000300000901017284960000018473"
+    }
+    },
+    "getTCD":{
+      "OutputGetTCD": {
+      "pdfTCDbase64": "JVBERi0xLjcNJeLjz9MNCjEgMCBvYmoNPDwvQW5ub3RzIDIwIDAgUi9Db250ZW50cyA3IDAgUi9Hcm91cDw8L0NTL0RldmljZVJHQi9TL1RyYW5zcGFyZW5jeS9UeXBlL+Z2kZjHh6PRy8C5v5Xxlpr6x/zH4leDczQ5xffo3+0g+uhov/+L/wil+RSqxHZUXmxZlfRNbdARzWjqSSC+ctpzJrZ7vIOdnCoVUZJ0r758KXJsfv3Eb9ef25fMOhX/+AcS52dQKZW5kc3RyZWFtDWVuZG9iag1zdGFydHhyZWYNOTU3NjQNJSVFT0YK"
+      }
+      },
+      "getLinkKrotonPay":{
+        "OutputGetLinkKrotonPay": {
+        "LinkKrotonPay": "https://paytst.krthomolog.com.br/13dBrPT",
+        "InstallmentNumber": 2,
+        "LinkExpirationDate": "20200910"
+        }
+        }
+
+
+
+
+
+
   }
