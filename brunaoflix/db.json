@@ -195,8 +195,171 @@
       }
     ],
     "getNegotiationLimits":
-    {"Nome":"Bruno"}
-    ,
+    {
+      "OutpuGetNegotiationLimits": {
+        "openItems": {
+            "SERVICO": {
+                "minInstalmentLimits": {
+                    "lockLimit": true,
+                    "min": 1,
+                    "defaultVal": 1,
+                    "max": 1,
+                    "lockDefVal": true
+                },
+                "mainDiscountLimits": {
+                    "lockLimit": false,
+                    "min": 0,
+                    "defaultVal": 0,
+                    "max": 65,
+                    "formulas": [
+                        "MAIN DISCOUNT TAX"
+                    ],
+                    "lockDefVal": false
+                },
+                "percfirstInstalmentLimits": {
+                    "lockLimit": false,
+                    "min": 15,
+                    "defaultVal": 15,
+                    "max": 100,
+                    "lockDefVal": false
+                }
+            },
+            "MENSALIDADE": {
+                "minInstalmentLimits": {
+                    "lockLimit": true,
+                    "min": 1,
+                    "defaultVal": 1,
+                    "max": 1,
+                    "lockDefVal": true
+                },
+                "mainDiscountLimits": {
+                    "lockLimit": false,
+                    "min": 0,
+                    "defaultVal": 0,
+                    "max": 65,
+                    "formulas": [
+                        "MAIN DISCOUNT TAX"
+                    ],
+                    "lockDefVal": false
+                },
+                "percfirstInstalmentLimits": {
+                    "lockLimit": false,
+                    "min": 15,
+                    "defaultVal": 15,
+                    "max": 100,
+                    "lockDefVal": false
+                }
+            }
+        },
+        "taxes": {
+            "monetaryIndexationTaxesLimits": {
+                "lockLimit": true,
+                "min": 0.5,
+                "defaultVal": 0.5,
+                "max": 0.5,
+                "formulas": [
+                    "MONETARY INDEXATION TAX 2"
+                ],
+                "lockDefVal": true
+            },
+            "finesDiscountLimits": {
+                "lockLimit": false,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 65,
+                "lockDefVal": false
+            },
+            "finesLimits": {
+                "lockLimit": true,
+                "min": 2,
+                "defaultVal": 2,
+                "max": 2,
+                "formulas": [
+                    "FINES"
+                ],
+                "lockDefVal": true
+            },
+            "indexationTaxesDiscountLimits": {
+                "lockLimit": false,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 65,
+                "lockDefVal": false
+            },
+            "negotiationRateDiscountLimits": {
+                "lockLimit": false,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 0,
+                "lockDefVal": false
+            },
+            "delayInterestDiscountLimits": {
+                "lockLimit": false,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 0,
+                "lockDefVal": false
+            },
+            "delayInterestLimits": {
+                "lockLimit": true,
+                "min": 1,
+                "defaultVal": 1,
+                "max": 1,
+                "formulas": [
+                    "DELAY PAYMENT INTEREST 2"
+                ],
+                "lockDefVal": true
+            },
+            "interestRateLimits": {
+                "lockLimit": true,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 0,
+                "formulas": [
+                    "SIMPLE INTEREST"
+                ],
+                "lockDefVal": true
+            },
+            "interestRateDiscountLimits": {
+                "lockLimit": true,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 0,
+                "lockDefVal": true
+            },
+            "negotiationRateLimits": {
+                "lockLimit": true,
+                "min": 0,
+                "defaultVal": 0,
+                "max": 0,
+                "lockDefVal": true
+            }
+        },
+        "instalments": {
+            "daysToFirstInstalmentLimits": {
+                "lockLimit": false,
+                "min": 1,
+                "defaultVal": 1,
+                "max": 10,
+                "lockDefVal": false
+            },
+            "instalmentsWithChargesLimits": {
+                "lockLimit": false,
+                "min": 1,
+                "defaultVal": 3,
+                "max": 12,
+                "lockDefVal": false
+            },
+            "instalmentsLimits": {
+                "lockLimit": false,
+                "min": 1,
+                "defaultVal": 3,
+                "max": 12,
+                "lockDefVal": false
+            }
+        }
+    }
+    },
     "simulateAgreement":{
       "OutputSimulateAgreement": {
           "InstalmentInfo": {
